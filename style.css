@@ -20,8 +20,12 @@ h1 {
 
 form {
     flex-direction: column;
+    text-align: center;
     align-items: center;
-    display: flex;
+}
+
+form .form-input{
+    text-align: center;
 }
 
 input[type="text"] {
@@ -43,10 +47,10 @@ button {
     margin-top: 20px; 
 }
 
-.form-input-container {
+.form-inpu-container {
+    
     margin-top: 20px; 
 }
-
 
 ul {
     list-style: none;
@@ -57,7 +61,6 @@ li {
     flex-direction: column;
     margin-bottom: 5px;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
     cursor: pointer;
 }
 
